@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicio Proyecto Boostrap</title>
+    <title>Sign Up Proyecto Boostrap</title>
     <!-- Latest compiled and minified CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="hojaEstilosFooter.css">
@@ -25,42 +25,68 @@
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link" href="inicioProyecto.html">Inicio</a>
+                <a class="nav-link" href="queEsProyecto.html">¿Qué es?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="perfilProyecto.html">Perfil</a>
+                <a class="nav-link" href="deDondeProyecto.html">¿De donde viene?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="chatProyecto.html">Chats</a>
+                <a class="nav-link" href="quePropositoProyecto.html">¿Qué propósito tiene?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="queEsProyecto.html">Sign out (cerrar sesión)</a>
+                <a class="nav-link" href="signUpProyecto.html">Sign in (iniciar sesión)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="logInProyecto.html">Sign up (registrarse)</a>
               </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="text" placeholder="Search">
-              <button class="btn btn-primary" type="button">Buscar</button>
+              <button class="btn btn-primary" type="button">Search</button>
             </form>
           </div>
         </div>
     </nav>
     <main>
-      <div class="card">
-        <div class="card-body"><img src="https://cdn-icons-png.flaticon.com/128/3171/3171065.png" class="rounded-circle" alt="Cinque Terre" width="40px">Carlos_Rasero_99</div>
-      </div>
-      <img src="https://static.eldinamo.cl/media/2017/05/work-4.jpg" class="img-thumbnail mx-auto d-block" width="40%">
-      <div class="card">
-        <div class="card-body"><img src="https://cdn-icons-png.flaticon.com/128/152/152760.png" class="rounded-circle" alt="Cinque Terre" width="40px">Sebas_Syso_Java</div>
-      </div>
-      <img src="https://www.bbva.com/wp-content/uploads/2015/12/bbva-gente-pensiones-1920x1080.jpg" class="img-thumbnail mx-auto d-block" width="40%">
-      <div class="card">
-        <div class="card-body"><img src="https://img.freepik.com/iconos-gratis/senal-persona-discapacidad-cuadrado-negro_318-72600.jpg" class="rounded-circle" alt="Cinque Terre" width="40px">El_ruedas_99</div>
-      </div>
-      <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YOHMVUISSRH5XF6ZAVVZ6ZIW3Q.jpg" class="img-thumbnail mx-auto d-block" width="40%">
-      <div class="card">
-        <div class="card-body"><img src="https://ih1.redbubble.net/image.1635825484.8340/flat,128x,075,f-pad,128x128,f8f8f8.jpg" class="rounded-circle" alt="Cinque Terre" width="40px">Fernando_No_Alonso</div>
-      </div>
-      <img src="https://images2.alphacoders.com/262/thumb-1920-262520.jpg" class="img-thumbnail mx-auto d-block" width="40%">
+        <form action="inicioProyecto.html" class="was-validated">
+            <div class="mb-3 mt-3">
+              <label for="uname" class="form-label">Nombre de usuario:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Esriba el usuario" name="uname" required>
+              <div class="valid-feedback">Válido.</div>
+              <div class="invalid-feedback">Porfavor rellene este campo.</div>
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Correo electrónico:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Escriba el correo eléctronico" name="pswd" required>
+              <div class="valid-feedback">Válido.</div>
+              <div class="invalid-feedback">Porfavor rellene este campo.</div>
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Contraseña:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Escriba la contraseña" name="uname" required>
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Porfavor rellene este campo.</div>
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Repita la contraseña:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Escriba la contraseña" name="uname" required>
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Porfavor rellene este campo.</div>
+            </div>
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+              <label class="form-check-label" for="myCheck">Acepto los <b>términos</b> de la página sin leerlos bajo mis consentimiento.</label>
+              <div class="valid-feedback">Válido.</div>
+              <div class="invalid-feedback">Marque la casilla para continuar.</div>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                <label class="form-check-label" for="myCheck">Acepto las <b>condiciones</b>: usos y abuso de las tecnologías digitales.</label>
+                <div class="valid-feedback">Válido.</div>
+                <div class="invalid-feedback">Marque la casilla para continuar.</div>
+            </div>
+            <button type="submit" class="btn btn-dark">Enviar</button>
+        </form>
     </main>
     <footer class="bg-dark text-center text-white">
       <!-- Grid container -->
